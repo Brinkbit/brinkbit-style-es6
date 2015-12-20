@@ -1,0 +1,41 @@
+{
+  "name": "brinkbit-style-es6",
+  "version": "1.0.0",
+  "description": "A linting module to enforce Brinkbit's es6 javascript style.",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test",
+    "install": "node src/index.js",
+    "eslint-pre-commit": "./scripts/eslint-pre-commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brinkbit/brinkbit-style-es6.git"
+  },
+  "keywords": [
+    "brinkbit",
+    "lint",
+    "style",
+    "js"
+  ],
+  "author": "Brinkbit",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^4.1.6",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1",
+    "eslint-plugin-react": "^3.11.3",
+    "git-validate": "^2.1.2"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-eslint": "^17.3.1",
+    "pre-commit": "^1.1.2"
+  },
+  "peerDependencies": {
+    "pre-commit": "^1.1.2"
+  },
+  "pre-commit": [
+    "eslint-pre-commit"
+  ]
+}
