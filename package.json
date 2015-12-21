@@ -1,6 +1,6 @@
 {
   "name": "brinkbit-style-es6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A linting module to enforce Brinkbit's es6 javascript style.",
   "main": "index.js",
   "scripts": {
