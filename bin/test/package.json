@@ -1,0 +1,12 @@
+{
+  "name": "test-package",
+  "version": "0.0.1",
+  "description": "A test package.json",
+  "main": "index.js",
+  "author": "Brinkbit",
+  "license": "MIT",
+  "devDependencies": {
+    "brinkbit-style-es6": "^1.0.2",
+    "pre-commit": "^1.1.2"
+  }
+}

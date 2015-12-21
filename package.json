@@ -4,7 +4,7 @@
   "description": "A linting module to enforce Brinkbit's es6 javascript style.",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test",
+    "test": "gulp",
     "install": "node src/index.js",
     "eslint-pre-commit": "./scripts/eslint-pre-commit"
   },
@@ -34,10 +34,13 @@
     "chai-as-promised": "^5.2.0",
     "fs-extra": "^0.26.3",
     "gulp": "^3.9.0",
-    "gulp-istanbul": "^0.10.3",
+    "gulp-changed": "^1.3.0",
+    "gulp-chmod": "^1.3.0",
+    "gulp-eslint": "^1.1.1",
     "gulp-mocha": "^2.2.0",
-    "isparta": "^4.0.0",
+    "gulp-rename": "^1.2.2",
     "pre-commit": "^1.1.2",
+    "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0"
   },
   "peerDependencies": {
